@@ -1,0 +1,21 @@
+.header {
+  padding: 15px;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+.header h2 {
+  display: inline-block;
+  font-size: 30px;
+  margin-right: 9%;
+}
+.header .create_column_button {
+  float: left;
+}
+.header a {
+  color: black;
+  float: right;
+  margin-right: 20px;
+}
+
+/*# sourceMappingURL=MyHeader.module.css.map */

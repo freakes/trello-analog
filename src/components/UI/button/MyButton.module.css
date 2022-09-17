@@ -1,0 +1,15 @@
+.myBtn {
+  cursor: pointer;
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  padding: 0.5em 1em;
+}
+
+.myBtn:hover,
+.myBtn:focus {
+  color: #fff;
+}
+
+/*# sourceMappingURL=MyButton.module.css.map */

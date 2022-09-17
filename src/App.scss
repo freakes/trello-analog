@@ -4,24 +4,26 @@
   font-family: Roboto, sans-serif;
 }
 
+
 body {
   background: linear-gradient(to right, #1e5799 0%, #e02cbf 83%, #1e5799 100%);
   background-size: 10000px 100%;
   animation: bg 15s linear infinite;
+  ::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+  }
 }
-body ::-webkit-scrollbar {
-  width: 0;
-  height: 0;
-}
-
-@keyframes bg {
-  0% {
+@keyframes bg{
+  0%{
     background-position-x: 0;
   }
-  100% {
+
+  100%{
     background-position-x: 10000px;
   }
 }
+
 .not_found {
   text-align: center;
   margin-top: 100px;
@@ -36,7 +38,6 @@ body ::-webkit-scrollbar {
   min-height: 650px;
   white-space: nowrap;
 }
-
 .column__item {
   min-width: 220px;
   cursor: grab;
@@ -47,26 +48,26 @@ body ::-webkit-scrollbar {
   background-color: lightgray;
   display: inline-block;
   vertical-align: top;
-}
-.column__item .column__title {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.column__item .column__title .column_title_edit_button {
-  float: right;
-  margin-left: 10px;
-  padding: 5px;
-}
-.column__item .column__title .column_title_create_card_button {
-  float: right;
-  margin-left: 5px;
-  padding: 5px;
-}
-.column__item .column__title .column_title_delete_column_button {
-  float: right;
-  margin-left: 5px;
-  padding: 5px;
+  .column__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .column_title_edit_button {
+      float: right;
+      margin-left: 10px;
+      padding: 5px;
+    }
+    .column_title_create_card_button {
+      float: right;
+      margin-left: 5px;
+      padding: 5px;
+    }
+    .column_title_delete_column_button {
+      float: right;
+      margin-left: 5px;
+      padding: 5px;
+    }
+  }
 }
 
 .card {
@@ -83,9 +84,7 @@ body ::-webkit-scrollbar {
 .about__page {
   margin-top: 300px;
   text-align: center;
+  a {
+    color: black;
+  }
 }
-.about__page a {
-  color: black;
-}
-
-/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,19 @@
+.header {
+  padding: 15px;
+  background-color: transparent;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  h2 {
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 9%;
+  }
+  .create_column_button {
+    float: left;
+  }
+  a {
+    color: black;
+    float: right;
+    margin-right: 20px;
+  }
+}
